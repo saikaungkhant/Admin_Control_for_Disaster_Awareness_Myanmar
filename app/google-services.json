@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1092368022473",
+    "firebase_url": "https://disasterawarenessdb.firebaseio.com",
+    "project_id": "disasterawarenessdb",
+    "storage_bucket": "disasterawarenessdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092368022473:android:733517e017d4a5e47cc618",
+        "android_client_info": {
+          "package_name": "com.example.awarenessadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092368022473-d3hevt1parv36tfm4stqqru4lbgmhhjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoqO5jNTUvBwXE9tBwpksyTmafXODmkbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092368022473-d3hevt1parv36tfm4stqqru4lbgmhhjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092368022473:android:572a732e212b5c797cc618",
+        "android_client_info": {
+          "package_name": "com.example.disasterawareness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092368022473-d3hevt1parv36tfm4stqqru4lbgmhhjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoqO5jNTUvBwXE9tBwpksyTmafXODmkbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092368022473-d3hevt1parv36tfm4stqqru4lbgmhhjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="လက်ရှိဘေးအန္တရာယ်များ ကြည့်ရန်"
+            android:textColor="@color/colorPrimaryBlue"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="ဘေးအန္တရာယ် အမှတ်" />
+
+        <EditText
+            android:id="@+id/edt_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="အမှတ်"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:inputType="numberDecimal"
+                android:text="လောင်ဂျီတွဒ်"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txt_long"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:inputType="numberDecimal"
+                android:text="လတ္တီတွဒ်"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="လောင်ဂျီတွဒ်"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/edt_long"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="လတ္တီတွဒ်"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="လောင်ဂျီတွဒ် နှင့် လတ္တီတွဒ် ကို ဂူးလ်ဂဲမြေပုံမှ ရယူရန်"
+            android:background="@color/colorSecondaryGreen"
+            android:textColor="@color/colorPrimaryBlue"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/txt_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="ဘေးအန္တရာယ် အမျိုးအစားများ"
+            android:layout_marginBottom="5dp"
+            />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="အခြားသတင်းအချက်အလက်များ"
+            />
+
+        <EditText
+            android:id="@+id/edt_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="အခြားသတင်းအချက်အလက်များ"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ထည့်သွင်းရန်"
+                android:background="@color/colorPrimaryBlue"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="3dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
